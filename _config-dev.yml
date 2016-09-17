@@ -1,0 +1,46 @@
+encoding: utf-8
+
+# Site settings
+title: Maxime Richard
+titlehtml: Maxime Richard - Nancy
+description: 'Maxime Richard, développeur .NET et Web sur Nancy'
+keywords: 'Maxime Richard, Nancy, .NET, C#, Web, React, ReactJS'
+url: 'https://zyhou.github.io'
+baseurl: '/'
+baseurlblog: '/blog/'
+# google_analytics: 'UA-32619599-1'
+# disqus_shortname: 'zyhou'
+
+author:
+  name: 'Maxime Richard'
+  city: Nancy
+  twitter_username: choukmax
+  googleplus_username: MaximeRichard
+  github_username:  zyhou
+  linkedin_username:  maximerichard9
+  email: richard.maxime9@gmail.com
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+paginate_path: "/blog/page:num"
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate', 'jekyll-redirect-from']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
