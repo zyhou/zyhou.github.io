@@ -89,6 +89,7 @@
 
     #bienvenu p {
 		font-size: 25px;
+        margin-bottom: auto;
     }
 
     #bienvenu a {
