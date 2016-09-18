@@ -1,0 +1,67 @@
+---
+title: ".NET Core dans un conteneur autonome"
+description: "Une application .NET Core multi-platforme"
+date: 2016-09-18 14:00:00
+categories: [Tutorial]
+tags: [.NET Core]
+---
+
+Au cas où vous êtes passés à côté de la nouvelle, .NET Core est devenu gratuit, open source mais aussi et surtout cross-platforme. En moins de 10 minutes, on peut créer un projet et commencer à développer.
+Pour cela, il suffit d'aller sur le site de [Microsoft](https://www.microsoft.com/net/core#windows) et de télécharger le framework. On peut utiliser [Visual Studio Code](http://code.visualstudio.com/) comme éditeur de code.
+
+Lorsqu'on installe son application, on dépend de .NET Core de la machine et non pas de .NET Core lui même. Si l'on souhaite mettre son application sur une clé USB ou la partager à d'autres personnes, cela est désormais possible. On peut donc inclure .NET Core comme conteneur autonome qui pointe vers des systèmes comme Linux, Mac et Windows.
+
+On va créer une application "Hello World", afin de voir comment rendre .NET Core totalement autonome.
+
+![Chemin ASP.NET Core]({{ "assets/path-aspnet-core-app.png" | prepend: site.baseurl }})
+
+On va simplement faire la commande ci-dessous, les fichiers Program.cs et project.json se créent.
+
+```
+dotnet new
+```
+
+Comme on peut le voir dans le fichier project.json, on pointe vers .NET Core de notre machine.
+
+```
+ "type": "platform"
+```
+
+On supprime cette dépendance pour pouvoir utiliser .NET Core totalement. Il existe de multiples runtime différents pour pointer vers d'autres systèmes, [liste de runtime](https://docs.microsoft.com/en-us/dotnet/articles/core/rid-catalog).
+
+```
+ "runtimes": {
+     "win10-x64": {},
+     "osx.10.10-x64": {},
+     "ubuntu.14.04-x64": {}
+```
+
+Il suffit de faire "dotnet restore" pour prendre en compte ces nouvelles dépendances.
+Maintenant on peut compiler notre application pour ces systèmes.
+
+```
+dotnet build -r win10-x64
+dotnet build -r osx.10.10-x64
+dotnet build -r ubuntu.14.04-x64
+```
+
+Pour obtenir la version finale (celle destinée à être publiée), on utilise les commandes suivantes : 
+
+```
+dotnet publish -c release -r win10-x64
+dotnet publish -c release -r osx.10.10-x64
+dotnet publish -c release -r ubuntu.14.04-x64
+```
+
+![Chemin ASP.NET Core build release]({{ "assets/path-aspnet-core-app-release.png" | prepend: site.baseurl }})
+
+On peut donc voir apparaître un dossier par runtime contenant "MonApplication.exe" (pour moi selftcontained.exe). 
+Pour lancer l'application il suffit d'executer la commande :
+
+```
+dotnet run
+```
+
+En suivant ces instructions, l'application devient cross-plateforme. .NET Core est maitenant isolé dans un conteneur et il devient indépendant de la machine.  
+Il existe une bonne documentation [.NET Core Docs](https://docs.microsoft.com/en-us/dotnet/articles/core/deploying/index) pour en savoir plus sur le déploiement d'application avec ASP.NET Core. Cela reste un début avant de pouvoir automatiser le processus. 
+A lire, [un article intéressant sur la gestion des packages](https://docs.microsoft.com/en-us/dotnet/articles/core/tutorials/managing-package-dependency-versions).
