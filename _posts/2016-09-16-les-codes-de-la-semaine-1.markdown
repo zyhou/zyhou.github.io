@@ -3,7 +3,7 @@ title:  "Les codes de la semaine #1"
 slug:  "les-codes-de-la-semaine-1"
 date:   2016-09-16 10:00:00
 categories: [Code de la semaine]
-tags: [Cod de la semaine]
+tags: [Code de la semaine]
 ---
 
 **Développement**

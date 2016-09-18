@@ -12,7 +12,7 @@ tags: [Code de la semaine]
 
 **.NET**
 
-- [Les nouveauté dans ASP.NET Core 1.0.1.](http://andrewlock.net/viewing-whats-changed-in-asp-net-core-1-0-1/){:target="_blank"}
+- [Les nouveautés dans ASP.NET Core 1.0.1.](http://andrewlock.net/viewing-whats-changed-in-asp-net-core-1-0-1/){:target="_blank"}
 - [Les conventions dans ASP.NET Core (Plier ASP.NET Core à notre volonté.)](http://jameschambers.com/2016/09/Bending-ASP-NET-MVC-Core-To-Your-Will/){:target="_blank"}
 
 **Développement Web**
