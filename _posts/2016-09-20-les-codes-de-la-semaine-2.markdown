@@ -8,7 +8,7 @@ tags: [Codé de la semaine]
 
 **Développement**
 
-- [Une carte qui montre tous les utilisteurs de GitHub.](https://jamesmilneruk.github.io/github-map/?utm_source=codropscollective){:target="_blank"}
+- [Une carte qui montre tous les utilisateurs de GitHub.](https://jamesmilneruk.github.io/github-map/?utm_source=codropscollective){:target="_blank"}
 
 **.NET**
 

@@ -12,13 +12,13 @@ tags: [Codé de la semaine]
 - [Concevoir un chatbot avec le Microsoft Bot Framework.](https://ankitbko.github.io/2016/08/ChatBot-using-Microsoft-Bot-Framework-Part-1/){:target="_blank"}
 - [Qu’est-ce qu’un bon développeur?](https://medium.com/@miket969/great-developers-3f20dbac8900#.n9vw05v30){:target="_blank"}
 - [Quelques leçons tirées d'optimisations de code.](https://frenchcoding.com/2016/09/15/quelques-lecons-tirees-doptimisations-de-code/){:target="_blank"}
-- [Statistique d'une année sur Github.](https://octoverse.github.com/){:target="_blank"}
-- [Que faire lorsque votre collègue crée du code Spaghetti.](https://blog.ndepend.com/colleague-creates-spaghetti-code/){:target="_blank"}
-- [Pourquoi les développeurs doivent traquer leur temps (même s'ils ne sont pas overbooké)](https://simpleprogrammer.com/2016/09/14/why-programmers-should-track-their-time/){:target="_blank"}
+- [Statistiques d'une année sur GitHub.](https://octoverse.github.com/){:target="_blank"}
+- [Que faire lorsque votre collègue crée du code spaghetti.](https://blog.ndepend.com/colleague-creates-spaghetti-code/){:target="_blank"}
+- [Pourquoi les développeurs doivent traquer leur temps (même s'ils ne sont pas overbookés.)](https://simpleprogrammer.com/2016/09/14/why-programmers-should-track-their-time/){:target="_blank"}
 
 **.NET**
 
-- [Où commencer pour faire du continuous delivery avec .NET.](https://dzone.com/articles/continuous-delivery-with-net){:target="_blank"}
+- [Où commencer pour faire de la livraison continue avec .NET.](https://dzone.com/articles/continuous-delivery-with-net){:target="_blank"}
 - [L’utilisation des attributs [Controller] et [NonController] avec ASP.NET Core MVC.](http://www.strathweb.com/2016/09/controller-and-noncontroller-attributes-in-asp-net-core-mvc/){:target="_blank"}
 - [L’injection de dépendances en ASP.NET Core 1.0.](http://www.strathweb.com/2016/09/controller-and-noncontroller-attributes-in-asp-net-core-mvc/){:target="_blank"}
 - [C# 7.0–Des évolutions mais pas de révolution.](http://www.e-naxos.com/Blog/post/C-70-Des-evolutions-mais-pas-de-revolution.aspx){:target="_blank"}
