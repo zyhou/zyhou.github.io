@@ -1,13 +1,13 @@
 # Maxime Richard Site Web + Blog
 
-[https://zyhou.github.io/](https://zyhou.github.io/
+https://zyhou.github.io/
 
 **Installation des prérequis :**
 
 - [nodejs](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 - [Jekyll](https://jekyllrb.com/docs/installation/) (qui demande d'installer ruby/rubygems)
-- [Pour installer Jekyll sur windows ](https://jekyllrb.com/docs/windows/)
+- [Pour installer Jekyll sur windows](https://jekyllrb.com/docs/windows/)
 
 **Récupérer les dépendances :**
 
