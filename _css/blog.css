@@ -193,6 +193,10 @@ pre.highlight code,
         margin-top: 100px;
         margin-bottom: 10px;
     }
+
+	.main-post-list h2 {
+    	font-size: 1.9em;
+    }
 }
 
 /*
