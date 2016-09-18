@@ -1,9 +1,9 @@
 ---
-title:  "Les codés de la semaine #1"
+title:  "Les codes de la semaine #1"
 slug:  "les-codes-de-la-semaine-1"
 date:   2016-09-16 10:00:00
-categories: [Codé de la semaine]
-tags: [Codé de la semaine]
+categories: [Code de la semaine]
+tags: [Cod de la semaine]
 ---
 
 **Développement**

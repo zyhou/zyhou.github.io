@@ -19,6 +19,10 @@
 	font-weight: lighter;
 }
 
+#article p:first-child { 
+    text-indent: 2em;
+}
+
 #article p>a {
 color : #E47575;
 }
