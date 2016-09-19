@@ -6,12 +6,12 @@ categories: [Tutorial]
 tags: [.NET Core]
 ---
 
-Au cas où vous êtes passés à côté de la nouvelle, .NET Core est devenu gratuit, open source mais aussi et surtout cross-platforme. En moins de 10 minutes, on peut créer un projet et commencer à développer.
+Au cas où vous êtes passés à côté de la nouvelle, .NET Core est devenu gratuit ainsi qu'open source mais aussi et surtout cross-platforme. En moins de 10 minutes, on peut créer un projet et commencer à développer.
 Pour cela, il suffit d'aller sur le site de [Microsoft](https://www.microsoft.com/net/core#windows) et de télécharger le framework. On peut utiliser [Visual Studio Code](http://code.visualstudio.com/) comme éditeur de code.
 
-Lorsqu'on installe son application, on dépend de .NET Core de la machine et non pas de .NET Core lui même. Si l'on souhaite mettre son application sur une clé USB ou la partager à d'autres personnes, cela est désormais possible. On peut donc inclure .NET Core comme conteneur autonome qui pointe vers des systèmes comme Linux, Mac et Windows.
+Lorsqu'on installe son application, on dépend de .NET Core de la machine et non pas de .NET Core lui-même. Si l'on souhaite mettre son application sur une clé USB ou la partager à d'autres personnes, cela est désormais possible. On peut donc inclure .NET Core comme conteneur autonome qui pointe vers des systèmes comme Linux, Mac et Windows.
 
-On va créer une application "Hello World", afin de voir comment rendre .NET Core totalement autonome.
+On va créer une application "Hello World" afin de voir comment rendre .NET Core totalement autonome.
 
 ![Chemin ASP.NET Core]({{ "assets/path-aspnet-core-app.png" | prepend: site.baseurl }})
 
@@ -56,12 +56,12 @@ dotnet publish -c release -r ubuntu.14.04-x64
 ![Chemin ASP.NET Core build release]({{ "assets/path-aspnet-core-app-release.png" | prepend: site.baseurl }})
 
 On peut donc voir apparaître un dossier par runtime contenant "MonApplication.exe" (pour moi selftcontained.exe). 
-Pour lancer l'application il suffit d'executer la commande :
+Pour lancer l'application, il suffit d'exécuter la commande :
 
 ```
 dotnet run
 ```
 
-En suivant ces instructions, l'application devient cross-plateforme. .NET Core est maitenant isolé dans un conteneur et il devient indépendant de la machine.  
+En suivant ces instructions, l'application devient cross-plateforme. .NET Core est maitenant isolé dans un conteneur et devient indépendant de la machine.  
 Il existe une bonne documentation [.NET Core Docs](https://docs.microsoft.com/en-us/dotnet/articles/core/deploying/index) pour en savoir plus sur le déploiement d'application avec ASP.NET Core. Cela reste un début avant de pouvoir automatiser le processus. 
 A lire, [un article intéressant sur la gestion des packages](https://docs.microsoft.com/en-us/dotnet/articles/core/tutorials/managing-package-dependency-versions).
