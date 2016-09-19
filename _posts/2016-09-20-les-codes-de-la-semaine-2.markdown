@@ -2,7 +2,7 @@
 title:  "Les codes de la semaine #2"
 slug:  "les-codes-de-la-semaine-2"
 date:   2016-09-20 10:00:00
-categories: [Code de la semaine]0
+categories: [Code de la semaine]
 tags: [Code de la semaine]
 ---
 
