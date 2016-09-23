@@ -1,7 +1,7 @@
 ---
 title:  "Les codes de la semaine #3"
 slug:  "les-codes-de-la-semaine-3"
-date:   2016-09-26 14:00:00
+date:   2016-09-23 14:00:00
 categories: [Code de la semaine]
 tags: [Code de la semaine]
 ---
