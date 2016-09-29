@@ -65,3 +65,5 @@ dotnet run
 En suivant ces instructions, l'application devient cross-plateforme. .NET Core est maitenant isolé dans un conteneur et devient indépendant de la machine.  
 Il existe une bonne documentation [.NET Core Docs](https://docs.microsoft.com/en-us/dotnet/articles/core/deploying/index) pour en savoir plus sur le déploiement d'application avec ASP.NET Core. Cela reste un début avant de pouvoir automatiser le processus. 
 A lire, [un article intéressant sur la gestion des packages](https://docs.microsoft.com/en-us/dotnet/articles/core/tutorials/managing-package-dependency-versions).
+
+source : [Scott Hanselman](http://www.hanselman.com/blog/SelfcontainedNETCoreApplications.aspx)

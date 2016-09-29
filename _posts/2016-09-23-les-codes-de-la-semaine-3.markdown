@@ -24,7 +24,7 @@ tags: [Code de la semaine]
 
 **Développement Web**
 
-- [Série de vidéo sur VueJs 2 en Français.](https://www.youtube.com/playlist?list=PLjwdMgw5TTLW-mAtlR46VajrKs4dep3y0){:target="_blank"}
+- [Série de vidéos sur VueJs 2 en Français.](https://www.youtube.com/playlist?list=PLjwdMgw5TTLW-mAtlR46VajrKs4dep3y0){:target="_blank"}
 - [TypeScript 2.0 est disponible.](http://www.nextinpact.com/news/101505-la-version-finale-typescript-2-0-est-disponible.htm){:target="_blank"}
 - [React et les tests unitaires.](http://blog.soat.fr/2016/08/react-et-les-tests-unitaires/){:target="_blank"}
 - [Librairie React couleur (Color Pickers).](http://casesandberg.github.io/react-color/){:target="_blank"}
