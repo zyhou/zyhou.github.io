@@ -51,3 +51,5 @@ node_modules/
 
 # Site
 _site
+
+npm-debug.log
