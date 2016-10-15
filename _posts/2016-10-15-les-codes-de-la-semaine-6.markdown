@@ -16,7 +16,7 @@ tags: [Code de la semaine]
 
 **.NET**
 
-- [Vous ne déployez pas votre application en mode Release ? Vous faitres erreur !](https://frenchcoding.com/2016/10/14/vous-ne-deployez-pas-votre-application-en-mode-release-vous-faites-erreur/){:target="_blank"}
+- [Vous ne déployez pas votre application en mode Release ? Vous faites erreur !](https://frenchcoding.com/2016/10/14/vous-ne-deployez-pas-votre-application-en-mode-release-vous-faites-erreur/){:target="_blank"}
 - [SQL Server 2016 version 2.](https://blogs.msdn.microsoft.com/bobsql/2016/10/03/the-sql-server-installer-version-2-just-install-it/){:target="_blank"}
 - [/!\ Microsoft IIS Administration Preview (IIS en site web :o).](https://blogs.iis.net/adminapi/microsoft-iis-administration-api-preview){:target="_blank"}
 - [POST-REDIRECT-GET avec TempData - ASP.NET Core.](http://andrewlock.net/post-redirect-get-using-tempdata-in-asp-net-core/){:target="_blank"}
