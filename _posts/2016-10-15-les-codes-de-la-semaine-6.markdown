@@ -8,7 +8,7 @@ tags: [Code de la semaine]
 
 **Développement**
 
-- [Vous n'avez pas peut être pas besoin de Jquery](http://youmightnotneedjquery.com/){:target="_blank"}, [de Javascript.](http://youmightnotneedjs.com/){:target="_blank"}
+- [Vous n'avez pas peut être pas besoin de Jquery](http://youmightnotneedjquery.com/){:target="_blank"} , [de Javascript.](http://youmightnotneedjs.com/){:target="_blank"}
 - [Visualt studio "15", rapidité et amélioration.](https://blogs.msdn.microsoft.com/visualstudio/2016/10/14/improved-overall-visual-studio-15-responsiveness/){:target="_blank"}
 - [Retirer les distractions pendant qu'on développe.](http://blog.jbrains.ca/permalink/avoid-distractions-while-programming){:target="_blank"}
 - [Comment un développeur junior peut contribuer à un projet open-source.](https://dzone.com/articles/how-junior-developers-can-contribute-to-open-sourc){:target="_blank"}
