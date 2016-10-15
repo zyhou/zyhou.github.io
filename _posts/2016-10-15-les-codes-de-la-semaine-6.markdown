@@ -25,7 +25,7 @@ tags: [Code de la semaine]
 - [Entity Framework Core TrackGraph.](http://www.mikesdotnetting.com/Article/303/entity-framework-core-trackgraph-for-disconnected-data){:target="_blank"}
 - [Apprendre .NET Core par l'exemple.](https://jonhilton.net/2016/10/12/learning-dotnet-core-by-example/){:target="_blank"}
 - [ASP.NET Core avec Docker dans Linux et Windows Containers.](http://www.hanselman.com/blog/ExploringASPNETCoreWithDockerInBothLinuxAndWindowsContainers.aspx){:target="_blank"}
-- [Nouvel objet Span<T>.](https://github.com/dotnet/corefxlab/blob/master/docs/Span.md){:target="_blank"}
+- [Nouvel objet C# Span.](https://github.com/dotnet/corefxlab/blob/master/docs/Span.md){:target="_blank"}
 - [.NET Standard FAQ.](https://github.com/dotnet/standard/blob/master/docs/faq.md#what-about-the-breaking-change-between-net-standard-1x-and-20){:target="_blank"}
 
 **Développement Web**
