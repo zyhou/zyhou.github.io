@@ -34,7 +34,7 @@ tags: [Code de la semaine]
 - [Jeux tower défense pour apprendre Flexbox.](http://www.flexboxdefense.com/){:target="_blank"}
 - [Un cheatsheet pour Flexbox.](http://jonibologna.com/flexbox-cheatsheet/){:target="_blank"}
 - [Pattern librairie, le prochain niveau.](https://www.smashingmagazine.com/taking-pattern-libraries-next-level/){:target="_blank"}
-- [Javascript stak from scratch - Série d'article.](https://github.com/verekia/js-stack-from-scratch){:target="_blank"}
+- [Javascript stak from scratch - Série d'articles.](https://github.com/verekia/js-stack-from-scratch){:target="_blank"}
 - [Style components - React.](https://github.com/styled-components/styled-components){:target="_blank"}
 - [Site web React vitesse de chargement du site - part 2.](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-2-page-load-performance-33b932d97cf2#.do8c4efnz){:target="_blank"}
 - [== contre === en Javascript.](https://twitter.com/mven_/status/785511566540087297){:target="_blank"}
