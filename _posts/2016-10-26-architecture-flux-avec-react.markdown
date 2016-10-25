@@ -6,8 +6,6 @@ categories: [Pattern]
 tags: [Pattern, React, Flux]
 ---
 
-# Introduction  
-
 Dans ce poste nous allons parler de l'architecture Flux de Facebook, vous pouvez retrouver un exemple sur mon Github avec une application de TodoList, [lien](https://github.com/zyhou/todolist-react).   
 Pour plus d'information, [consulter la documentation](https://facebook.github.io/flux/).   
 
@@ -17,7 +15,7 @@ Pour plus d'information, [consulter la documentation](https://facebook.github.io
 
 Comme on peut le voir dans l'image dessus, le flux est unidirectionnel.   
 
-Il y a 4 principaux concepts : View -> Action -> Dispatcher -> Store    
+Il y a 4 principaux concepts : **View** -> **Action** -> **Dispatcher** -> **Store**    
 
 - Les actions, qu'elles proviennent du serveur ou d'une interaction utilisateur.   
 - Le dispatcher dans lequel sont envoyées les actions que ce dernier transmet à qui veut, un peu comme un EventEmitter global.    
@@ -119,7 +117,7 @@ Par rapport à flux, le dispatcher disparait et il n’y a plus qu’un seul sto
 
 Source :
 
-[https://code-cartoons.com/](ttps://code-cartoons.com/)
-[http://facebook.github.io/flux/](http://facebook.github.io/flux/)
-[http://blog.soat.fr/2016/04/larchitecture-flux-avec-react/](http://blog.soat.fr/2016/04/larchitecture-flux-avec-react/)
-[http://redux.js.org/docs/introduction/ThreePrinciples.html](http://redux.js.org/docs/introduction/ThreePrinciples.html)
+[https://code-cartoons.com/](ttps://code-cartoons.com/)   
+[http://facebook.github.io/flux/](http://facebook.github.io/flux/)   
+[http://blog.soat.fr/2016/04/larchitecture-flux-avec-react/](http://blog.soat.fr/2016/04/larchitecture-flux-avec-react/)   
+[http://redux.js.org/docs/introduction/ThreePrinciples.html](http://redux.js.org/docs/introduction/ThreePrinciples.html)   
