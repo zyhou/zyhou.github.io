@@ -26,7 +26,7 @@ Nous allons en détail à quoi correspond ses concepts avec du code.
 
 ## View   
 
-```
+```javascript
 export default class TodoList extends Component {
 
   addItem() {
@@ -41,7 +41,7 @@ Dans ce dode, quand on clique sur le boutton, il va appeler l'action addItem qui
 
 ## Action     
 
-```
+```javascript
 class TodoActions {
 
     addItem() {
@@ -59,7 +59,7 @@ Dans Flux tout passe par les actions, on ne peut pas modifier l'affichage d'un c
 
 ## Dispatcher  
 
-```
+```javascript
 const Dispatcher = require('flux').Dispatcher;
 
 module.exports = new Dispatcher();
@@ -71,7 +71,7 @@ Le dispatcher est le composant unique qui reçoit toutes les actions de l’appl
 
 ## Store  
 
-```
+```javascript
 AppDispatcher.register(action => {
 
 	switch (action.actionType) {

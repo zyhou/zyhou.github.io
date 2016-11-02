@@ -17,19 +17,19 @@ On va créer une application "Hello World" afin de voir comment rendre .NET Core
 
 On va simplement faire la commande ci-dessous, les fichiers Program.cs et project.json se créent.
 
-```
+```powershell
 dotnet new
 ```
 
 Comme on peut le voir dans le fichier project.json, on pointe vers .NET Core de notre machine.
 
-```
+```json
  "type": "platform"
 ```
 
 On supprime cette dépendance pour pouvoir utiliser .NET Core totalement. Il existe de multiples runtime différents pour pointer vers d'autres systèmes, [liste de runtime](https://docs.microsoft.com/en-us/dotnet/articles/core/rid-catalog).
 
-```
+```json
  "runtimes": {
      "win10-x64": {},
      "osx.10.10-x64": {},
@@ -39,7 +39,7 @@ On supprime cette dépendance pour pouvoir utiliser .NET Core totalement. Il exi
 Il suffit de faire "dotnet restore" pour prendre en compte ces nouvelles dépendances.
 Maintenant on peut compiler notre application pour ces systèmes.
 
-```
+```powershell
 dotnet build -r win10-x64
 dotnet build -r osx.10.10-x64
 dotnet build -r ubuntu.14.04-x64
@@ -47,7 +47,7 @@ dotnet build -r ubuntu.14.04-x64
 
 Pour obtenir la version finale (celle destinée à être publiée), on utilise les commandes suivantes : 
 
-```
+```powershell
 dotnet publish -c release -r win10-x64
 dotnet publish -c release -r osx.10.10-x64
 dotnet publish -c release -r ubuntu.14.04-x64
@@ -58,7 +58,7 @@ dotnet publish -c release -r ubuntu.14.04-x64
 On peut donc voir apparaître un dossier par runtime contenant "MonApplication.exe" (pour moi selftcontained.exe). 
 Pour lancer l'application, il suffit d'exécuter la commande :
 
-```
+```powershell
 dotnet run
 ```
 
