@@ -6,10 +6,6 @@ categories: [Code de la semaine]
 tags: [Code de la semaine]
 ---
 
-- [](){:target="_blank"}
-- [](){:target="_blank"}
-- [](){:target="_blank"}
-
 **Développement**
 
 - [La seule méthode que j'ai utilisé pour éliminer les mauvais développeur.](https://mattermark.com/the-one-method-ive-used-to-eliminate-bad-tech-hires/){:target="_blank"}
