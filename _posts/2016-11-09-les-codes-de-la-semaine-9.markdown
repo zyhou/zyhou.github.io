@@ -1,7 +1,7 @@
 ---
 title:  "Les codes de la semaine #9"
 slug:  "les-codes-de-la-semaine-9"
-date:   2016-11-09 2.:00:00
+date:   2016-11-09 20:00:00
 categories: [Code de la semaine]
 tags: [Code de la semaine]
 ---
