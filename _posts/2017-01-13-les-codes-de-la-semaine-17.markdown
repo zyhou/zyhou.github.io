@@ -1,6 +1,6 @@
 ---
-title:  "Les codes de la semaine #18"
-slug:  "les-codes-de-la-semaine-1"
+title:  "Les codes de la semaine #17"
+slug:  "les-codes-de-la-semaine-17"
 date:   2017-01-13 11:00:00
 categories: [Code de la semaine]
 tags: [Code de la semaine]
