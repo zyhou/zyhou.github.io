@@ -20,7 +20,7 @@ tags: [Code de la semaine]
 - [Logger doucement - ASP.NET Core.](http://gunnarpeipman.com/2017/01/aspnet-core-defensive-logging/){:target="_blank"}
 - [.NET Core librairie pour travailler des images.](https://blogs.msdn.microsoft.com/dotnet/2017/01/19/net-core-image-processing/){:target="_blank"}
 - [Le fichier de configuration - ASP.NET Core - partie 3.](https://dotnetcodr.com/2017/01/20/introduction-to-asp-net-core-part-3-the-configuration-file/){:target="_blank"}
-- [Test d'intégration avec EF Core et SQL Serveur.]()https://www.aspnetmonsters.com/2016/11/2016-11-27-integration-testing-with-entity-framework-core-and-sql-server/{:target="_blank"}
+- [Test d'intégration avec EF Core et SQL Serveur.](https://www.aspnetmonsters.com/2016/11/2016-11-27-integration-testing-with-entity-framework-core-and-sql-server/){:target="_blank"}
 - [Ce que un développeur Xamarin doit savoir en 2017.](http://motzcod.es/post/155770642197/what-xamarin-developers-ought-to-know-to-start-2017){:target="_blank"}
 - [/!\ Expliquer le .NET Standard à un enfant de cinq ans.](http://miniml.ist/dotnet/explaining-dotnet-standard-like-im-five/){:target="_blank"}
 - [Roadmap pour EF Core 2.0](https://github.com/aspnet/EntityFramework/wiki/Roadmap){:target="_blank"}
