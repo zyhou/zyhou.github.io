@@ -6,11 +6,6 @@ categories: [Code de la semaine]
 tags: [Code de la semaine]
 ---
 
-- [](){:target="_blank"}
-- [](){:target="_blank"} 
-- [](){:target="_blank"}
-
-
 **Développement**
 
 - [Utiliser les Hooks de git dans votre workflow.](https://scotch.io/tutorials/using-git-hooks-in-your-development-workflow){:target="_blank"}
