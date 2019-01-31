@@ -1,287 +1,170 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Content-Language" content="fr-FR" />
-    <title>Maxime Richard - Nancy</title>
-    <meta
-      name="description"
-      content="Maxime Richard, développeur React, Node sur Nancy"
-    />
-    <meta name="keywords" content="Maxime Richard, Nancy, Web, React, Node" />
-    <meta name="author" content="Maxime Richard" />
-    <meta name="copyright" content="Maxime Richard" />
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="MobileOptimized" content="320" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta
-      name="apple-mobile-web-app-status-bar-style"
-      content="black-translucent"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <meta
-      name="google-site-verification"
-      content="TUU6CiyDueNTh7iqqurWUZhpddbj1P5tVOrTChtI0Mk"
-    />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Language" content="fr-FR" />
+        <title>Maxime Richard - Nancy</title>
+        <meta name="description" content="Maxime Richard, développeur React, Node sur Nancy" />
+        <meta name="keywords" content="Maxime Richard, Nancy, Web, React, Node" />
+        <meta name="author" content="Maxime Richard" />
+        <meta name="copyright" content="Maxime Richard" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="google-site-verification" content="TUU6CiyDueNTh7iqqurWUZhpddbj1P5tVOrTChtI0Mk" />
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@choukmax" />
-    <meta name="twitter:creator" content="@choukmax" />
-    <meta name="twitter:title" content="Maxime Richard" />
-    <meta
-      name="twitter:description"
-      content="Maxime Richard, développeur React, Node sur Nancy"
-    />
-    <meta
-      name="twitter:image"
-      content="https://zyhou.github.io/images/card.jpg"
-    />
-    <meta name="twitter:url" content="https://zyhou.github.io/" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@choukmax" />
+        <meta name="twitter:creator" content="@choukmax" />
+        <meta name="twitter:title" content="Maxime Richard" />
+        <meta name="twitter:description" content="Maxime Richard, développeur React, Node sur Nancy" />
+        <meta name="twitter:image" content="https://zyhou.github.io/images/card.jpg" />
+        <meta name="twitter:url" content="https://zyhou.github.io/" />
 
-    <meta property="og:locale" content="fr_FR" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Maxime Richard" />
-    <meta
-      property="og:description"
-      content="Maxime Richard, développeur React, Node sur Nancy"
-    />
-    <meta
-      property="og:image"
-      content="https://zyhou.github.io/images/card.jpg"
-    />
-    <meta property="og:url" content="https://zyhou.github.io/" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Maxime Richard" />
+        <meta property="og:description" content="Maxime Richard, développeur React, Node sur Nancy" />
+        <meta property="og:image" content="https://zyhou.github.io/images/card.jpg" />
+        <meta property="og:url" content="https://zyhou.github.io/" />
 
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="./images/favicons/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="./images/favicons/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="./images/favicons/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./images/favicons/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="./images/favicons/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="./images/favicons/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="./images/favicons/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="./images/favicons/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./images/favicons/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="./images/favicons/favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="./images/favicons/favicon-194x194.png"
-      sizes="194x194"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="./images/favicons/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="./images/favicons/android-icon-192x192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="./images/favicons/favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link rel="manifest" href="./images/favicons/manifest.json" />
-    <link rel="shortcut icon" href="./images/favicons/favicon.ico" />
-    <meta name="msapplication-TileColor" content="#ffc40d" />
-    <meta
-      name="msapplication-TileImage"
-      content="./images/favicons/ms-icon-144x144.png"
-    />
-    <meta name="theme-color" content="#ffffff" />
+        <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="./images/favicons/apple-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="./images/favicons/apple-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="./images/favicons/apple-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="./images/favicons/apple-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="./images/favicons/apple-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-icon-180x180.png" />
+        <link rel="icon" type="image/png" href="./images/favicons/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="./images/favicons/favicon-194x194.png" sizes="194x194" />
+        <link rel="icon" type="image/png" href="./images/favicons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="./images/favicons/android-icon-192x192.png" sizes="192x192" />
+        <link rel="icon" type="image/png" href="./images/favicons/favicon-16x16.png" sizes="16x16" />
+        <link rel="manifest" href="./images/favicons/manifest.json" />
+        <link rel="shortcut icon" href="./images/favicons/favicon.ico" />
+        <meta name="msapplication-TileColor" content="#ffc40d" />
+        <meta name="msapplication-TileImage" content="./images/favicons/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
 
-    <link rel="stylesheet" href="./css/style.css" media="screen" />
-    <link rel="stylesheet" href="./css/font-awesome.css" media="screen" />
-    <link rel="canonical" href="https://zyhou.github.io/" />
-  </head>
+        <link rel="stylesheet" href="./css/style.css" media="screen" />
+        <link rel="stylesheet" href="./css/font-awesome.css" media="screen" />
+        <link rel="canonical" href="https://zyhou.github.io/" />
+    </head>
 
-  <body>
-    <header>
-      <div class="container">
-        <h3 id="logo">
-          <a href="./index.html">Maxime Richard</a>
-        </h3>
-        <nav>
-          <ul id="menu">
-            <li>
-              <a
-                href="./index.html"
-                class="liens_niveau1 active-link"
-                id="link-accueil"
-                >Accueil</a
-              >
-            </li>
-            <li>
-              <a href="mailto:richard.maxime9@gmail.com">
-                <i class="fa fa-envelope"></i>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <body>
+        <header>
+            <div class="container">
+                <h3 id="logo">
+                    <a href="./index.html">Maxime Richard</a>
+                </h3>
+                <nav>
+                    <ul id="menu">
+                        <li>
+                            <a href="./index.html" class="liens_niveau1 active-link" id="link-accueil">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="mailto:richard.maxime9@gmail.com">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-    <section id="bg_bienvenu">
-      <div class="container">
-        <div id="bienvenu">
-          <h1>Je m'appelle <b>Maxime</b>.</h1>
-          <p>
-            J'ai <span id="age"></span> ans et suis un passionné de
-            développement.
-          </p>
-          <p>
-            J'apprecie tout particulièrement React <br />
-            et les dernières technologies Open source.
-          </p>
-          <a href="./CV_MAXIME_RICHARD.pdf" target="_blank">Curriculum vitæ</a>
-        </div>
-      </div>
-    </section>
+        <section id="bg_bienvenu">
+            <div class="container">
+                <div id="bienvenu">
+                    <h1>Je m'appelle <b>Maxime</b>.</h1>
+                    <p>J'ai <span id="age"></span> ans et suis un passionné de développement.</p>
+                    <p>
+                        J'apprecie tout particulièrement React <br />
+                        et les dernières technologies Open source.
+                    </p>
+                    <a href="./CV_MAXIME_RICHARD.pdf" target="_blank">Curriculum vitæ</a>
+                </div>
+            </div>
+        </section>
 
-    <section class="bg_presentation">
-      <div class="container">
-        <div id="presentation">
-          <h1>Actuellement</h1>
-          <div id="article">
-            <p>
-              Après deux années passées sur
-              <b>Paris</b> et trois autres dans une entreprise
-              <b>Nancéienne</b>, je travaille depuis janvier 2017 chez
-              <a href="https://marmelab.com/" target="_blank">Marmelab</a> à
-              <b>Nancy</b>. J'évolue au sein d'une équipe qui développe des
-              solutions web et mobile. Je contribue à plusieurs projets Open
-              Source, vous pouvez retrouver une liste exhaustive sur mon
-              <a href="https://github.com/zyhou/" target="_blank">GitHub</a>
-              ansi que celui de
-              <a href="https://github.com/marmelab/" target="_blank">Marmelab</a
-              >.
-            </p>
-            <p>
-              Intéressé par les entreprises qui proposent de l'Open source dans
-              les alentours de
-              <b>Nancy</b>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <section class="bg_presentation">
+            <div class="container">
+                <div id="presentation">
+                    <h1>Actuellement</h1>
+                    <div id="article">
+                        <p>
+                            Après deux années passées sur
+                            <b>Paris</b> et trois autres dans une entreprise <b>Nancéienne</b>, je travaille depuis
+                            janvier 2017 chez <a href="https://marmelab.com/" target="_blank">Marmelab</a> à
+                            <b>Nancy</b>. J'évolue au sein d'une équipe qui développe des solutions web et mobile. Je
+                            contribue à plusieurs projets Open Source, vous pouvez retrouver une liste exhaustive sur
+                            mon
+                            <a href="https://github.com/zyhou/" target="_blank">GitHub</a>
+                            ansi que celui de
+                            <a href="https://github.com/marmelab/" target="_blank">Marmelab</a>.
+                        </p>
+                        <p>
+                            Intéressé par les entreprises qui proposent de l'Open source dans les alentours de
+                            <b>Nancy</b>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <footer>
-      <div class="container">
-        <div id="div_mail">
-          <h2>Contact</h2>
-          <a href="mailto:richard.maxime9@gmail.com">
-            <i class="fa fa-envelope"></i>Contact par mail</a
-          >
-          <p><i class="fa fa-map-marker"></i>Nancy</p>
-        </div>
-        <div id="div_social">
-          <a
-            href="https://twitter.com/choukmax"
-            target="_blank"
-            title="choukmax sur Twitter"
-          >
-            <i class="fa fa-twitter icones_social"></i>
-          </a>
-          <a
-            href="https://github.com/zyhou"
-            target="_blank"
-            title="zyhou sur Github"
-          >
-            <i class="fa fa-github icones_social"></i>
-          </a>
-          <a
-            href="http://fr.linkedin.com/in/maximerichard9"
-            target="_blank"
-            title="maximerichard9 sur Linkedin"
-          >
-            <i class="fa fa-linkedin-square icones_social"></i>
-          </a>
-        </div>
-      </div>
-    </footer>
+        <footer>
+            <div class="container">
+                <div id="div_mail">
+                    <h2>Contact</h2>
+                    <a href="mailto:richard.maxime9@gmail.com"> <i class="fa fa-envelope"></i>Contact par mail</a>
+                    <p><i class="fa fa-map-marker"></i>Nancy</p>
+                </div>
+                <div id="div_social">
+                    <a href="https://twitter.com/choukmax" target="_blank" title="choukmax sur Twitter">
+                        <i class="fa fa-twitter icones_social"></i>
+                    </a>
+                    <a href="https://github.com/zyhou" target="_blank" title="zyhou sur Github">
+                        <i class="fa fa-github icones_social"></i>
+                    </a>
+                    <a
+                        href="http://fr.linkedin.com/in/maximerichard9"
+                        target="_blank"
+                        title="maximerichard9 sur Linkedin"
+                    >
+                        <i class="fa fa-linkedin-square icones_social"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
 
-    <script type="text/javascript">
-      var birthday = new Date(1991, 04, 12);
-      var ageDifMs = Date.now() - birthday.getTime();
-      document.getElementById("age").innerHTML = Math.abs(
-        new Date(ageDifMs).getUTCFullYear() - 1970
-      );
-    </script>
+        <script type="text/javascript">
+            var birthday = new Date(1991, 04, 12);
+            var ageDifMs = Date.now() - birthday.getTime();
+            document.getElementById('age').innerHTML = Math.abs(new Date(ageDifMs).getUTCFullYear() - 1970);
+        </script>
 
-    <script>
-      (function(i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function() {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "//www.google-analytics.com/analytics.js",
-        "ga"
-      );
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                (i[r] =
+                    i[r] ||
+                    function() {
+                        (i[r].q = i[r].q || []).push(arguments);
+                    }),
+                    (i[r].l = 1 * new Date());
+                (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      ga("create", "UA-32619599-1", "auto");
-      ga("send", "pageview");
-    </script>
-  </body>
+            ga('create', 'UA-32619599-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
 </html>
