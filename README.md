@@ -1,3 +1,1 @@
-# Maxime Richard Web site
-
-No dependencies, pure HTML + CSS
+# OLD persoam website, move to https://maximerichard.dev/
