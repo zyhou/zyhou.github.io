@@ -1,1 +1,1 @@
-# OLD persoam website, move to https://maximerichard.dev/
+# OLD personal website, move to https://maximerichard.dev/
